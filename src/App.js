@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Step-wise Guide to Starting Open Source Contributions with a New Large Codebase as a Beginner</h1>
+      <ol>
+        <li>Choose the Right Project</li>
+        <li>Set Up Your Development Environment</li>
+        <li>Understand the Codebase</li>
+        <li>Start with Simple Tasks</li>
+        <li>Study Existing Code and Patterns</li>
+        <li>Engage with the Community</li>
+        <li>Start Contributing</li>
+        <li>Submit Your Contributions</li>
+        <li>Iterate and Learn from Feedback</li>
+        <li>Gradually Take on More Complex Tasks</li>
+      </ol>
     </div>
   );
 }
